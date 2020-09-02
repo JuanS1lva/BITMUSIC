@@ -1,0 +1,23 @@
+{
+  "name": "bitmusic",
+  "version": "0.1.0",
+  "description": "App de musica",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanS1lva/BITMUSIC.git"
+  },
+  "author": "Juan Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanS1lva/BITMUSIC/issues"
+  },
+  "homepage": "https://github.com/JuanS1lva/BITMUSIC#readme"
+}
