@@ -1,144 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BITMUSIC</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BITMUSIC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+      <a class="navbar-brand" href="#"> <img src="imagenes/logo.png" class="rounded-circle" alt="" width="140px"> </a>
+      <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <div class="collapse navbar-collapse letra" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Lo Último</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Top Global
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pop</a>
+              <a class="dropdown-item" href="#">Electronica</a>
+              <a class="dropdown-item" href="#">Rock</a>
+              <a class="dropdown-item" href="#">Salsa</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Artistas del Mes
+            </a>
+            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">The Neighbourhood</a>
+              <a class="dropdown-item" href="#">Tame Impala</a>
+              <a class="dropdown-item" href="#">Daglow</a>
+              <a class="dropdown-item" href="#">Curtis Walters</a>
+            </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <button class="btn btn-outline-success  my-2 my-sm-0 boton " type="submit">Login</button>
       </div>
     </nav>
+
   </header>
 
+
   <main>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top container" src="https://vignette.wikia.nocookie.net/yugiohenespanol/images/f/f6/Obelisco_el_atormentador_%28legal%29.jpg/revision/latest?cb=20200204040159&path-prefix=es" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
+    <br>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_960_720.jpg" alt="First slide">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top container" src="https://vignette.wikia.nocookie.net/yugiohenespanol/images/8/88/El_drag%C3%B3n_alado_de_ra_%28legal%29.jpg/revision/latest?cb=20161110100212&path-prefix=es" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074_960_720.jpg" alt="Second slide">
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top container" src="https://vignette.wikia.nocookie.net/yugiohenespanol/images/2/2d/Slifer_el_drag%C3%B3n_del_cielo_%28legal%29.jpg/revision/latest?cb=20200204041416&path-prefix=es" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top container" src="https://vignette.wikia.nocookie.net/yugiohenespanol/images/b/bf/El_dios_creador_de_luz%2C_horakhty.jpg/revision/latest?cb=20121216170412&path-prefix=es" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/03/26/10/22/band-691224_960_720.jpg" alt="Third slide">
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 order-2 order-md-1">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe dignissimos ullam sit minus autem suscipit perspiciatis! Beatae labore magnam sequi ad aperiam iste nobis debitis, incidunt vel dolor enim similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur assumenda ab, quidem placeat sint sapiente vero consequatur, voluptas ducimus, numquam quasi. Provident velit exercitationem eveniet libero tempora deserunt aut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, illum optio, culpa possimus enim numquam veritatis blanditiis vero voluptas, beatae quibusdam molestias recusandae totam perspiciatis. Rem temporibus minus enim ipsum modi eius, quod earum omnis blanditiis magnam, at beatae. Consequuntur ratione officia laboriosam placeat. Voluptas similique, obcaecati sit veritatis ratione aperiam error minus dolorem aut eveniet quo distinctio fugit dolor ut laborum temporibus laboriosam provident ad nulla explicabo incidunt vero facilis quisquam. Repellendus aspernatur molestiae, illo aliquam esse ea veritatis sint! Sint porro iure maxime repudiandae non repellat at dolorem aliquam, deserunt, odit cupiditate omnis maiores obcaecati veritatis aperiam temporibus!</p>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-6 order-1 order-md-2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Khd-uyOuhGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="row d-flex justify-content-around mt-5">
+      <div
+        class="col-lg-5 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center bg-primary p-3 ">
+        <img src="imagenes/logo.png"  width="280px" alt="musica icono">
+        <h2 class="text-center">Registrate y obten 3 meses Gratis!!</h2>
+        <h6>*Aplican terminos y condiciones</h6>
       </div>
 
+      <div class="col-lg-6 col-md-12 col-sm-12  border border-primary ">
+        <form class="p-5">
+          <div class=" row ">
+            <div class="form-group col ">
+              <label for="">Nombre</label>
+              <input type="text" class="form-control" placeholder="Juan">
+            </div>
+            <div class="form-group col">
+              <label for="">Apellido</label>
+              <input type="text" class="form-control" placeholder="Perez">
+            </div>
+          </div>
+
+          <div class=" row ">
+            <div class="form-group col">
+              <label for="">Correo</label>
+              <input type="email" class="form-control" placeholder="correo@correo.com">
+            </div>
+            <div class="form-group col">
+              <label for="">Contraseña</label>
+              <input type="password" class="form-control" placeholder="*********">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-5">
+              <label for="inputCity">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Bogota">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">País</label>
+              <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>Colombia</option>
+                <option>Chile</option>
+                <option>Perú</option>
+                <option>Brasil</option>
+              </select>
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputZip">Telefono</label>
+              <input type="tel" class="form-control" id="inputZip" placeholder="3009999999">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Acepta terminos y condiciones
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Registrar</button>
+      </div>
+      </form>
+    </div>
+
+    </div>
     </div>
   </main>
+  </main>
+  <footer class="bg-primary mt-5">
+    <div class="card-deck bg-primary p-4 text-center">
+      <div class="card-group">
+        <div class="card">
+          <iframe height="315" src="https://www.youtube.com/embed/LAr5bxYQc5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Dracukeo rompe ventas</h5>
+            <p class="card-text">De todas las versiones que han subido, esta es la mejor.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Hace 3 dias</small>
+          </div>
+        </div>
+        <div class="card">
+          <iframe height="315" src="https://www.youtube.com/embed/_aw4ZiHXN7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Shrek lanza su primer EP</h5>
+            <p class="card-text">The fact this was made in a garage makes it even cooler.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Hace 2 semanas</small>
+          </div>
+        </div>
+        <div class="card">
+          <iframe height="315" src="https://www.youtube.com/embed/9WFj6AMFwMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Shibuya y su ultimo hit!</h5>
+            <p class="card-text">Chanel is like my favorite song by Frank Ocean so I downloaded the acapella and made this beat to it. Let me know if you like it cause I love it!.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Hace 1 mes</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
 </body>
+
 </html>
